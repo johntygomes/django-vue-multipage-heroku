@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "heroku-postbuild": "ng build --prod"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -19,7 +20,7 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.5.21",
-    "webpack-bundle-tracker": "^0.4.2-beta"
+    "webpack-bundle-tracker": "^0.4.3"
   },
   "eslintConfig": {
     "root": true,
